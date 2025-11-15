@@ -32,8 +32,8 @@ except Exception as e:
 # 여기서 PDF 경로를 코드에서 직접 지정
 pdf_paths = [
     r"/mount/src/librarychatbot_gemini/4.로봇기술리뷰_조한길.pdf",
-    r"/mount/src/librarychatbot_gemini/발전상황.pdf",
-    r"/mount/src/librarychatbot_gemini/필요성 개발 방향.pdf"
+    r"/mount/src/librarychatbot_gemini/조류.pdf",
+    r"/mount/src/librarychatbot_gemini/인천연안 갯벌의 환경특성과 건강도 평가.pdf"
     # 필요 시 PDF 경로 추가 가능
 ]
 
