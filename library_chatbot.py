@@ -31,7 +31,10 @@ except Exception as e:
 # ---------------- PDF 경로 지정 ----------------
 # 여기서 PDF 경로를 코드에서 직접 지정
 pdf_paths = [
-    r"/mount/src/librarychatbot_gemini/4.로봇기술리뷰_조한길.pdf"
+    r"/mount/src/librarychatbot_gemini/4.로봇기술리뷰_조한길.pdf",
+    r"/mount/src/librarychatbot_gemini/조류.pdf",
+    r"/mount/src/librarychatbot_gemini/조류.pdf",
+    r"/mount/src/librarychatbot_gemini/조류.pdf"
     # 필요 시 PDF 경로 추가 가능
 ]
 
@@ -178,4 +181,3 @@ if prompt_message := st.chat_input("질문을 입력하세요"):
             with st.expander("참고 문서 확인"):
                 for doc in response.get('context', []):
                     st.markdown(doc.metadata.get('source', 'No source'))
-
